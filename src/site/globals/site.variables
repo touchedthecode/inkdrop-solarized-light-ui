@@ -5,92 +5,108 @@
 @headerFont        : -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
 @pageFont          : -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
 @importGoogleFonts : false;
-@useCustomScrollbars: false;
+@useCustomScrollbars: true;
 
+/* Solarized Light Palette */
+@base03: #002b36;
+@base02: #073642;
+@base01: #586e75;
+@base00: #657b83;
+@base0:  #839496;
+@base1:  #93a1a1;
+@base2:  #eee8d5;
+@base3:  #fdf6e3;
+@yellow: #b58900;
+@orange: #cb4b16;
+@red:    #dc322f;
+@magenta:#d33682;
+@violet: #6c71c4;
+@blue:   #268bd2;
+@cyan:   #2aa198;
+@green:  #859900;
 
 /*-------------------
       Side Bar
 --------------------*/
-@sidebarBackground     : #171A21;
-@sidebarMenuItemInactiveBackground: hsl(var(--hsl-slate-600) / 70%);
-@sidebarMenuItemActiveBackground: hsl(var(--hsl-blue-300) / 50%);
-@sidebarMenuSectionColor: @invertedUnselectedTextColor;
-@sidebarMenuSectionSeparatorColor: rgba(255,255,255,0.1);
-@sidebarMenuItemColor  : @invertedLightTextColor;
-@sidebarMenuActionColor : @invertedDisabledTextColor;
-@sidebarMenuActionHoverColor : @invertedLightTextColor;
-@sidebarSyncStatusViewBackground: #12151A;
-@sidebarSyncStatusViewTextColor: @invertedMutedTextColor;
-@sidebarSyncStatusViewDetailColor: @invertedUnselectedTextColor;
-@sidebarScrollbarWidth: 6px;
-@sidebarScrollbarTrackBackground: rgba(255,255,255,0.02);
-@sidebarScrollbarThumbBackground: rgba(255,255,255,0.2);
-
+@sidebarBackground     : @base3;
+@sidebarMenuItemInactiveBackground: @base2;
+@sidebarMenuItemActiveBackground: @base1;
+@sidebarMenuSectionColor: @base00;
+@sidebarMenuSectionSeparatorColor: @base01;
+@sidebarMenuItemColor  : @base03;
+@sidebarMenuActionColor : @base01;
+@sidebarMenuActionHoverColor : @base00;
+@sidebarSyncStatusViewBackground: @base3;
+@sidebarSyncStatusViewTextColor: @base00;
+@sidebarSyncStatusViewDetailColor: @base01;
+@sidebarScrollbarWidth: 4px;
+@sidebarScrollbarTrackBackground: @base3;
+@sidebarScrollbarThumbBackground: @base00;
 
 /*-------------------
       Scroll Bar
 --------------------*/
-@scrollbarWidth: 6px;
-@scrollbarTrackBackground: rgba(0,0,0,0.05);
-@scrollbarThumbBackground: rgba(0,0,0,0.2);
+@scrollbarWidth: 4px;
+@scrollbarTrackBackground: @base3;
+@scrollbarThumbBackground: @base01;
 
 /*-------------------
       Note List Bar
 --------------------*/
-@noteListBarBackground: rgb(245, 245, 244);
-@noteListBarPinnedSectionHeaderBackground: #e6e6e6;
+@noteListBarBackground: @base3;
+@noteListBarPinnedSectionHeaderBackground: @base2;
 @noteListBarPinnedSectionHeaderBorderBottom: none;
-@noteListBarPinnedSectionFooterBorderBottom: 4px solid #ccc;
-@noteListViewItemColor: @mutedTextColor;
-@noteListViewItemSeparatorBorder: 1px solid @whiteDown;
-@noteListViewItemDateColor: @primaryColor;
-@noteListViewItemTagColor: @blueFocus;
-@noteListViewItemInactiveBackground: hsl(var(--hsl-sky-800) / 20%);
-@noteListViewItemActiveBackground: @primaryColor;
-@noteListViewItemActiveColor: @invertedTextColor;
-@noteListViewItemActiveDateColor: @invertedTextColor;
-@noteListViewItemActiveTagColor: @invertedTextColor;
+@noteListBarPinnedSectionFooterBorderBottom: 4px solid @base1;
+@noteListViewItemColor: @base00;
+@noteListViewItemSeparatorBorder: 1px solid @base2;
+@noteListViewItemDateColor: @blue;
+@noteListViewItemTagColor: @violet;
+@noteListViewItemInactiveBackground: @base2;
+@noteListViewItemActiveBackground: @base1;
+@noteListViewItemActiveColor: @base3;
+@noteListViewItemActiveDateColor: @base3;
+@noteListViewItemActiveTagColor: @violet;
 @noteListViewItemFocusInnerShadow: none;
-@noteSearchBarBackground: @noteListBarBackground;
-@noteSearchBarBorderBottom: rgba(255,255,255,0.8);
+@noteSearchBarBackground: @base3;
+@noteSearchBarBorderBottom: @base1;
 @noteSearchBarInputBorder: 1px solid transparent;
-@noteSearchBarInputBackground: @inputBackground;
+@noteSearchBarInputBackground: @base2;
 
 /*-------------------
       Editor
 --------------------*/
-@editorBackground: rgb(255, 255, 255);
+@editorBackground: @base3;
 
 /*-------------------
       Header Note Menu
 --------------------*/
-@headerNoteMenuBackground: transparent;
-@headerNoteMenuColor: @lightTextColor;
-@headerNoteMenuActionItemActiveBackground: @infoBackgroundColor;
-@headerNoteMenuActionItemActiveBorder: 1px solid @infoBorderColor;
-@headerNoteMenuActionItemSeparatorBorder: 1px solid @whiteDown;
-@headerNoteMenuEncryptButtonColor: @yellowTextColor;
-@headerNoteMenuEncryptButtonBackground: @yellowBackground;
+@headerNoteMenuBackground: @base3;
+@headerNoteMenuColor: @base00;
+@headerNoteMenuActionItemActiveBackground: @base1;
+@headerNoteMenuActionItemActiveBorder: 1px solid @base01;
+@headerNoteMenuActionItemSeparatorBorder: 1px solid @base2;
+@headerNoteMenuEncryptButtonColor: @yellow;
+@headerNoteMenuEncryptButtonBackground: @base2;
 
 /*-------------------
       Preferences
 --------------------*/
-@preferencesSidebarBackground: rgb(245, 245, 244);
-@preferencesSidebarItemActiveBackground: rgba(79, 142, 255, 0.2);
-@preferencesViewBackground: rgb(255, 255, 255);
+@preferencesSidebarBackground: @base3;
+@preferencesSidebarItemActiveBackground: @base2;
+@preferencesViewBackground: @base3;
 
 /*-------------------
       Task Icons
 --------------------*/
-@taskIconActive: hsl(var(--hsl-slate-400));
-@taskIconOnHold: hsl(var(--hsl-amber-500));
-@taskIconCompleted: hsl(var(--hsl-emerald-500));
-@taskIconDropped: hsl(var(--hsl-rose-400));
+@taskIconActive: @blue;
+@taskIconOnHold: @yellow;
+@taskIconCompleted: @green;
+@taskIconDropped: @red;
 
 /*-------------------
   Task Progress View
 --------------------*/
-@taskProgressViewBorderColor: hsl(var(--hsl-gray-950) / 30%);
-@taskProgressViewBackgroundColor: hsl(var(--hsl-gray-950) / 30%);
-@taskProgressViewForegroundColor: hsl(var(--hsl-white) / 60%);
-@taskProgressViewCompletedColor: hsl(var(--hsl-green-500));
+@taskProgressViewBorderColor: @base01;
+@taskProgressViewBackgroundColor: @base3;
+@taskProgressViewForegroundColor: @blue;
+@taskProgressViewCompletedColor: @green;

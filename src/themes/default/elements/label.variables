@@ -9,8 +9,8 @@
 @verticalAlign: baseline;
 @verticalMargin: 0em;
 @horizontalMargin: @relative2px;
-@backgroundColor: #E8E8E8;
-@color: @mutedTextColor;
+@backgroundColor: #eee8d5; /* Solarized Base2 */
+@color: #586e75; /* Solarized Base01 */
 @backgroundImage: none;
 @verticalPadding: 0.5833em; /* medium is not @emSize custom value required */
 @horizontalPadding: 0.833em;
@@ -83,19 +83,19 @@
 --------------------*/
 
 /* Hover */
-@labelHoverBackgroundColor: #E0E0E0;
+@labelHoverBackgroundColor: #fdf6e3; /* Solarized Base3 */
 @labelHoverBackgroundImage: none;
-@labelHoverTextColor: @hoveredTextColor;
+@labelHoverTextColor: #586e75; /* Solarized Base01 */
 
 /* Active */
-@labelActiveBackgroundColor: #D0D0D0;
+@labelActiveBackgroundColor: #eee8d5; /* Solarized Base2 */
 @labelActiveBackgroundImage: none;
-@labelActiveTextColor: @selectedTextColor;
+@labelActiveTextColor: #657b83; /* Solarized Base00 */
 
 /* Active Hover */
-@labelActiveHoverBackgroundColor: #C8C8C8;
+@labelActiveHoverBackgroundColor: #fdf6e3; /* Solarized Base3 */
 @labelActiveHoverBackgroundImage: none;
-@labelActiveHoverTextColor: @selectedTextColor;
+@labelActiveHoverTextColor: #657b83; /* Solarized Base00 */
 
 
 /*-------------------

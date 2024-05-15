@@ -31,13 +31,13 @@
 ;
 
 /* Menu */
-@menuBackground: @white;
+@menuBackground: #fdf6e3;
 @menuMargin: 0em;
 @menuPadding: 0em 0em;
 @menuTop: 100%;
 @menuTextAlign: left;
 
-@inlineMenuBackground: fade(@white, 70%);
+@inlineMenuBackground: fade(#fdf6e3, 70%);
 
 @menuBorderWidth: 1px;
 @menuBorderColor: @borderColor;

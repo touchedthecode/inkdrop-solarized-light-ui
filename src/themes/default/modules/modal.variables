@@ -41,7 +41,7 @@
 @contentFontSize: 1em;
 @contentPadding: 1.0rem;
 @contentLineHeight: 1.4;
-@contentBackground: #FFFFFF;
+@contentBackground: #fdf6e3;
 
 /* Image / Description */
 @imageWidth: '';
