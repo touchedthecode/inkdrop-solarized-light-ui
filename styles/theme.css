@@ -1012,7 +1012,7 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
   --sidebar-menu-item-inactive-background: #eee8d5;
   --sidebar-menu-item-active-background: #93a1a1;
   --sidebar-menu-section-color: #657b83;
-  --sidebar-menu-section-separator-color: #586e75;
+  --sidebar-menu-section-separator-color: #fdf6e3;
   --sidebar-menu-item-color: #002b36;
   --sidebar-menu-action-color: #586e75;
   --sidebar-menu-action-hover-color: #657b83;
@@ -1059,8 +1059,8 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
   --header-note-menu-background: #fdf6e3;
   --header-note-menu-color: #657b83;
   --header-note-menu-action-item-active-background: #93a1a1;
-  --header-note-menu-action-item-active-border: 1px solid #586e75;
-  --header-note-menu-action-item-separator-border: 1px solid #eee8d5;
+  --header-note-menu-action-item-active-border: 10px solid #586e75;
+  --header-note-menu-action-item-separator-border: 10px solid #fdf6e3;
   --header-note-menu-encrypt-button-color: #b58900;
   --header-note-menu-encrypt-button-background: #eee8d5;
   /*-------------------

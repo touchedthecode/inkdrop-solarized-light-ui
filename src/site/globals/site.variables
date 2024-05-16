@@ -32,7 +32,7 @@
 @sidebarMenuItemInactiveBackground: @base2;
 @sidebarMenuItemActiveBackground: @base1;
 @sidebarMenuSectionColor: @base00;
-@sidebarMenuSectionSeparatorColor: @base01;
+@sidebarMenuSectionSeparatorColor: @base3;
 @sidebarMenuItemColor  : @base03;
 @sidebarMenuActionColor : @base01;
 @sidebarMenuActionHoverColor : @base00;
@@ -83,8 +83,8 @@
 @headerNoteMenuBackground: @base3;
 @headerNoteMenuColor: @base00;
 @headerNoteMenuActionItemActiveBackground: @base1;
-@headerNoteMenuActionItemActiveBorder: 1px solid @base01;
-@headerNoteMenuActionItemSeparatorBorder: 1px solid @base2;
+@headerNoteMenuActionItemActiveBorder: 10px solid @base01;
+@headerNoteMenuActionItemSeparatorBorder: 10px solid @base3;
 @headerNoteMenuEncryptButtonColor: @yellow;
 @headerNoteMenuEncryptButtonBackground: @base2;
 
