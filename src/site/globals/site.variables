@@ -29,7 +29,7 @@
       Side Bar
 --------------------*/
 @sidebarBackground     : @base3;
-@sidebarMenuItemInactiveBackground: @base2;
+@sidebarMenuItemInactiveBackground: @base2; 
 @sidebarMenuItemActiveBackground: @base1;
 @sidebarMenuSectionColor: @base00;
 @sidebarMenuSectionSeparatorColor: @base3;

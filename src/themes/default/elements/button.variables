@@ -9,7 +9,7 @@
 /* Button */
 @verticalMargin: 0em;
 @horizontalMargin: 0.25em;
-@backgroundColor: #eee8d5; /* Solarized Base2 */
+@backgroundColor: @base2;
 @backgroundImage: none;
 @background: @backgroundColor @backgroundImage;
 @lineHeight: 1em;
@@ -23,7 +23,7 @@
 @tapColor: transparent;
 @fontFamily: @pageFont;
 @fontWeight: @bold;
-@textColor: #657b83; /* Solarized Base00 */
+@textColor: @base00;
 @textShadow: none;
 @invertedTextShadow: @textShadow;
 @borderRadius: @defaultBorderRadius;
@@ -86,10 +86,10 @@
 --------------------*/
 
 /* Hovered */
-@hoverBackgroundColor: #93a1a1; /* Solarized Base3 */
+@hoverBackgroundColor: @base3;
 @hoverBackgroundImage: @backgroundImage;
 @hoverBoxShadow: @boxShadow;
-@hoverColor: #586e75; /* Solarized Base01 */
+@hoverColor: @base01;
 @iconHoverOpacity: 0.85;
 
 /* Focused */
@@ -104,19 +104,19 @@
 @disabledBoxShadow: none;
 
 /* Pressed Down */
-@downBackgroundColor: #eee8d5; /* Solarized Base2 */
+@downBackgroundColor: @base2;
 @downBackgroundImage: '';
 @downPressedShadow: none;
 @downBoxShadow:
   @borderBoxShadow,
   @downPressedShadow
 ;
-@downColor: #073642; /* Solarized Base02 */;
+@downColor: @base02;
 
 /* Active */
-@activeBackgroundColor: #fdf6e3; /* Solarized Base3 */
+@activeBackgroundColor: @base3;
 @activeBackgroundImage: none;
-@activeColor: #839496; /* Solarized Base0 */
+@activeColor: @base0;
 @activeBoxShadow: @borderBoxShadow;
 
 /* Active + Hovered */

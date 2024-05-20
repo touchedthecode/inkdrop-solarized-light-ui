@@ -52,7 +52,7 @@
 --------------------*/
 
 @primaryColor        : #268bd2;
-@secondaryColor      : #073642;
+@secondaryColor      : @base02;
 
 @lightPrimaryColor   : @lightBlue;
 @lightSecondaryColor : @lightBlack;
@@ -75,15 +75,15 @@
 ---------------*/
 
 /* This adjusts the default form input across all elements */
-@inputBackground        : #fdf6e3; /* Solarized Base3 */
+@inputBackground        : @base3;
 @inputVerticalPadding   : @relative11px;
 @inputHorizontalPadding : @relative14px;
 @inputPadding           : @inputVerticalPadding @inputHorizontalPadding;
 
 /* Input Text Color */
-@inputColor: #002b36; 
-@inputPlaceholderColor: #073642; 
-@inputPlaceholderFocusColor: #586e75; 
+@inputColor: @base03; 
+@inputPlaceholderColor: @base02; 
+@inputPlaceholderFocusColor: base01; 
 
 /* Line Height Default For Inputs in Browser (Descenders are 17px at 14px base em) */
 @inputLineHeight: unit((17 / 14), em);
@@ -132,11 +132,11 @@
         Page
 --------------------*/
 
-@pageBackground      : #fdf6e3; /* Solarized Base3 */
+@pageBackground      : @base3;
 @pageOverflowX       : hidden;
 
 @lineHeight          : 1.4285em;
-@textColor           : #657b83; /* Solarized Base00 */
+@textColor           : @base00;
 
 /*-------------------
       Paragraph
@@ -149,7 +149,7 @@
        Links
 --------------------*/
 
-@linkColor           : #268bd2; /* Solarized Blue */
+@linkColor           : @blue;
 @linkUnderline       : none;
 @linkHoverColor      : darken(saturate(@linkColor, 20), 15, relative);
 @linkHoverUnderline  : @linkUnderline;
@@ -230,6 +230,15 @@
       Site Colors
 --------------------*/
 
+@base03: #002b36;
+@base02: #073642;
+@base01: #586e75;
+@base00: #657b83;
+@base0:  #839496;
+@base1:  #93a1a1;
+@base2:  #eee8d5;
+@base3:  #fdf6e3;
+
 /*---  Colors  ---*/
 @red              : #dc322f; /* Solarized Red */
 @orange           : #cb4b16; /* Solarized Orange */
@@ -242,8 +251,8 @@
 @purple           : #d33682; /* Solarized Magenta */
 @pink             : #d33682; /* Solarized Magenta */
 @brown            : #a5673f;
-@grey             : #839496; /* Solarized Base0 */
-@black            : #073642; /* Solarized Base02 */
+@grey             : @base0;
+@black            : @base02;
 
 /*---  Light Colors  ---*/
 @lightRed         : lighten(@red, 20%);
@@ -261,11 +270,11 @@
 @lightBlack       : lighten(@black, 20%);
 
 /*---   Neutrals  ---*/
-@fullBlack        : #002b36; /* Solarized Base03 */
-@offWhite         : #fdf6e3; /* Solarized Base3 */
-@darkWhite        : #eee8d5; /* Solarized Base2 */
-@midWhite         : #93a1a1; /* Solarized Base1 */
-@white            : #ffffff;
+@fullBlack        : @base03;
+@offWhite         : @base3;
+@darkWhite        : @base2;
+@midWhite         : @base1;
+@white            : @base2;
 
 /*--- Colored Backgrounds ---*/
 @redBackground    : lighten(@red, 40%);
