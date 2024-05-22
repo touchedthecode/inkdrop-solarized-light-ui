@@ -28,19 +28,19 @@
 /*-------------------
       Side Bar
 --------------------*/
-@sidebarBackground     : @base3;
-@sidebarMenuItemInactiveBackground: @base2; 
-@sidebarMenuItemActiveBackground: @base1;
-@sidebarMenuSectionColor: @base00;
-@sidebarMenuSectionSeparatorColor: @base3;
-@sidebarMenuItemColor  : @base03;
-@sidebarMenuActionColor : @base01;
-@sidebarMenuActionHoverColor : @base00;
-@sidebarSyncStatusViewBackground: @base3;
-@sidebarSyncStatusViewTextColor: @base00;
-@sidebarSyncStatusViewDetailColor: @base01;
+@sidebarBackground: @base2;
+@sidebarMenuItemInactiveBackground: mix(@base2, @base1, 70%);
+@sidebarMenuItemActiveBackground:  mix(@base2, @base1, 10%); 
+@sidebarMenuSectionColor: @base0;
+@sidebarMenuSectionSeparatorColor: @base03;
+@sidebarMenuItemColor: @base00;
+@sidebarMenuActionColor: @base0;
+@sidebarMenuActionHoverColor: @base1;
+@sidebarSyncStatusViewBackground: @base2;
+@sidebarSyncStatusViewTextColor: @base0;
+@sidebarSyncStatusViewDetailColor: @base1;
 @sidebarScrollbarWidth: 4px;
-@sidebarScrollbarTrackBackground: @base3;
+@sidebarScrollbarTrackBackground: @base03;
 @sidebarScrollbarThumbBackground: @base00;
 
 /*-------------------
@@ -50,21 +50,22 @@
 @scrollbarTrackBackground: @base3;
 @scrollbarThumbBackground: @base01;
 
+
 /*-------------------
       Note List Bar
 --------------------*/
 @noteListBarBackground: @base3;
-@noteListBarPinnedSectionHeaderBackground: @base2;
+@noteListBarPinnedSectionHeaderBackground: @base3;
 @noteListBarPinnedSectionHeaderBorderBottom: none;
 @noteListBarPinnedSectionFooterBorderBottom: 4px solid @base1;
 @noteListViewItemColor: @base00;
-@noteListViewItemSeparatorBorder: 1px solid @base2;
+@noteListViewItemSeparatorBorder: 1px solid @base3;
 @noteListViewItemDateColor: @blue;
 @noteListViewItemTagColor: @violet;
-@noteListViewItemInactiveBackground: @base2;
+@noteListViewItemInactiveBackground: mix(@base1, @base3, 20%); 
 @noteListViewItemActiveBackground: @base1;
-@noteListViewItemActiveColor: @base3;
-@noteListViewItemActiveDateColor: @base3;
+@noteListViewItemActiveColor: @base01;
+@noteListViewItemActiveDateColor: @blue;
 @noteListViewItemActiveTagColor: @violet;
 @noteListViewItemFocusInnerShadow: none;
 @noteSearchBarBackground: @base3;

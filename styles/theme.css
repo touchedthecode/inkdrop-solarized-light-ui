@@ -1008,19 +1008,19 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
   /*-------------------
         Side Bar
   --------------------*/
-  --sidebar-background: #fdf6e3;
-  --sidebar-menu-item-inactive-background: #eee8d5;
-  --sidebar-menu-item-active-background: #93a1a1;
-  --sidebar-menu-section-color: #657b83;
-  --sidebar-menu-section-separator-color: #fdf6e3;
-  --sidebar-menu-item-color: #002b36;
-  --sidebar-menu-action-color: #586e75;
-  --sidebar-menu-action-hover-color: #657b83;
-  --sidebar-sync-status-view-background: #fdf6e3;
-  --sidebar-sync-status-view-text-color: #657b83;
-  --sidebar-sync-status-view-detail-color: #586e75;
+  --sidebar-background: #eee8d5;
+  --sidebar-menu-item-inactive-background: #d3d3c5;
+  --sidebar-menu-item-active-background: #9ca8a6;
+  --sidebar-menu-section-color: #839496;
+  --sidebar-menu-section-separator-color: #002b36;
+  --sidebar-menu-item-color: #657b83;
+  --sidebar-menu-action-color: #839496;
+  --sidebar-menu-action-hover-color: #93a1a1;
+  --sidebar-sync-status-view-background: #eee8d5;
+  --sidebar-sync-status-view-text-color: #839496;
+  --sidebar-sync-status-view-detail-color: #93a1a1;
   --sidebar-scrollbar-width: 4px;
-  --sidebar-scrollbar-track-background: #fdf6e3;
+  --sidebar-scrollbar-track-background: #002b36;
   --sidebar-scrollbar-thumb-background: #657b83;
   /*-------------------
         Scroll Bar
@@ -1032,17 +1032,17 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
         Note List Bar
   --------------------*/
   --note-list-bar-background: #fdf6e3;
-  --note-list-bar-pinned-section-header-background: #eee8d5;
+  --note-list-bar-pinned-section-header-background: #fdf6e3;
   --note-list-bar-pinned-section-header-border-bottom: none;
   --note-list-bar-pinned-section-footer-border-bottom: 4px solid #93a1a1;
   --note-list-view-item-color: #657b83;
-  --note-list-view-item-separator-border: 1px solid #eee8d5;
+  --note-list-view-item-separator-border: 1px solid #fdf6e3;
   --note-list-view-item-date-color: #268bd2;
   --note-list-view-item-tag-color: #6c71c4;
-  --note-list-view-item-inactive-background: #eee8d5;
+  --note-list-view-item-inactive-background: #e8e5d6;
   --note-list-view-item-active-background: #93a1a1;
-  --note-list-view-item-active-color: #fdf6e3;
-  --note-list-view-item-active-date-color: #fdf6e3;
+  --note-list-view-item-active-color: #586e75;
+  --note-list-view-item-active-date-color: #268bd2;
   --note-list-view-item-active-tag-color: #6c71c4;
   --note-list-view-item-focus-inner-shadow: none;
   --note-search-bar-background: #fdf6e3;

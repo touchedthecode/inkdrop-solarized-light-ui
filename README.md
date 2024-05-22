@@ -4,12 +4,6 @@ Quick and dirty implementation of Solarized Light UI Theme for Inkdrop, for pers
 
 ![ui preview](preview.png)
 
-## ToDo
+## Contribute
 
-- Find a better color for `@noteListViewItemActiveBackground` and `@sidebarMenuItemActiveBackground` that keeps status icons readable
-- Finish changing colors 
-    - Settings 
-        - Keybindings
-        - Plugins
-    - Editor Floating Actions   
-- Use Solarized Light Palette Variables everywhere instead of hard coded hex values
+Feel free to contribute!
