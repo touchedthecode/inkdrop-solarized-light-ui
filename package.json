@@ -1,8 +1,8 @@
 {
-  "name": "solarized-light-ui",
+  "name": "nikos-solarized-light-ui",
   "version": "0.5.0",
   "theme": "ui",
-  "description": "Solarized Light UI Theme for Inkdrop",
+  "description": "My Solarized Light UI Theme for Inkdrop, the way I like it.",
   "repository": "https://github.com/touchedthecode/inkdrop-solarized-light-ui",
   "styleSheets": [
     "theme.css"
